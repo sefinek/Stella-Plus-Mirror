@@ -1,6 +1,6 @@
 {
   "name": "smp-mirror",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "This Node.js project is used for mirroring the benefits for Stella Mod Plus subscribers",
   "main": "index.js",
   "scripts": {
