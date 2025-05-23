@@ -1,24 +1,23 @@
 {
   "name": "smp-mirror",
-  "version": "2.0.4",
-  "description": "This Node.js project is used for mirroring the benefits for Stella Mod Plus subscribers",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "up": "ncu -u && npm install && npm update && npm audit fix"
+  "version": "2.0.5",
+  "homepage": "https://patrons.sefinek.net",
+  "bugs": {
+    "url": "https://github.com/sefinek/Stella-Plus-Mirror/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sefinek/Stella-Plus-Mirror.git"
   },
+  "license": "SEE LICENSE IN LICENSE.txt",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
-  "license": "CC BY-NC-SA 4.0 DEED",
-  "bugs": {
-    "url": "https://github.com/sefinek/Stella-Plus-Mirror/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
   },
-  "homepage": "https://patrons.sefinek.net",
   "dependencies": {
-    "axios": "^1.8.4",
+    "axios": "^1.9.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
@@ -27,13 +26,13 @@
     "express-validator": "^7.2.1",
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.2",
+    "mongoose": "^8.15.0",
     "morgan": "^1.10.0",
     "passport": "^0.7.0",
     "passport-http-bearer": "^1.0.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.25.1",
-    "globals": "^16.0.0"
+    "@eslint/js": "^9.27.0",
+    "globals": "^16.1.0"
   }
 }

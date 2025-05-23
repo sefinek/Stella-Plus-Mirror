@@ -1,0 +1,30 @@
+Copyright 2023-2025 © by Sefinek. All Rights Reserved.
+
+This software and its source code are proprietary and confidential.
+Unauthorized copying, modification, distribution, or use of any part of this project is strictly prohibited without explicit written permission from the author.
+
+§1 Proprietary Rights
+This software is the exclusive property of the author.
+All rights, title, and interest in the software, including but not limited to intellectual property rights, remain with the author.
+
+§2 Restrictions
+You are strictly prohibited from:
+- Copying, modifying, distributing, or using any part of this software without prior written permission.
+- Selling, sublicensing, renting, leasing, or commercially exploiting any part of this software.
+- Reverse engineering, decompiling, disassembling, or attempting to derive the source code.
+
+§3 Liability Disclaimer
+This software is provided "as is" without any warranties, express or implied. The author shall not be held liable for any damages, including but not limited to:
+- Loss of data, profits, or revenue.
+- Software malfunctions or security breaches.
+- Any direct, indirect, incidental, or consequential damages arising from the use or inability to use this software.
+
+§4 Legal Jurisdiction
+This license agreement is governed by the laws of the Poland.
+Any disputes arising from this agreement shall be settled in the courts of the Poland.
+
+§5 Termination
+Any breach of this license will result in immediate termination of all rights granted herein.
+Upon termination, you must cease all use of the software and delete any copies in your possession.
+
+For licensing inquiries or permissions, please contact: contact@sefinek.net
