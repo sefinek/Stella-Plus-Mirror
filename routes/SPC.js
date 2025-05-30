@@ -1,5 +1,4 @@
-const express = require('express');
-const router = express.Router();
+const router = require('express').Router();
 const { param } = require('express-validator');
 const DownloadBenefitsController = require('../controllers/SPC/DownloadBenefits.js');
 
