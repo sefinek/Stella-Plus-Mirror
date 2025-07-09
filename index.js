@@ -1,5 +1,4 @@
-require('dotenv').config();
-
+require('env-native').config();
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
