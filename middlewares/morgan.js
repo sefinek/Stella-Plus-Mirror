@@ -1,3 +1,6 @@
 const morgan = require('morgan');
 
-module.exports = morgan('[:status :method :response-time ms] :url :user-agent :remote-addr ":referrer"');
+const UPTIME_BOT_UA = 'Better Stack Better Uptime Bot Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
+const skip = req => req.headers['user-agent'] === UPTIME_BOT_UA;
+
+module.exports = morgan('[:status :method :response-time ms] :url :user-agent :remote-addr ":referrer"', { skip });
