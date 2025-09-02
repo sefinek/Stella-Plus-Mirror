@@ -1,4 +1,4 @@
-require('env-native').config();
+process.loadEnvFile();
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
