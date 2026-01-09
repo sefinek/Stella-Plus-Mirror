@@ -25,13 +25,12 @@
     "express-validator": "^7.3.1",
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.0.2",
     "morgan": "^1.10.1",
     "passport": "^0.7.0",
     "passport-http-bearer": "^1.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "globals": "^16.5.0"
+    "globals": "^17.0.0"
   }
 }
