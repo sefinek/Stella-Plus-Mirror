@@ -45,7 +45,7 @@ exports.downloadBenefit = async (req, res) => {
 
 		// Send file
 		console.log(prefix, `Serving ${benefitType} (benefitId=${data.benefitId}) from ${filePath}`);
-		res.download(filePath, (err) => {
+		res.download(filePath, err => {
 			if (err && !res.headersSent) sendResult(res, { status: 500, message: 'File transfer failed.' });
 		});
 	} catch (err) {
@@ -86,7 +86,7 @@ exports.download = async (req, res) => {
 
 		// Send file - mark as downloaded only after successful transfer
 		console.log(prefix, `Serving ${downloadName}`);
-		res.download(benefitsZipPath, downloadName, (downloadErr) => {
+		res.download(benefitsZipPath, downloadName, downloadErr => {
 			if (downloadErr) {
 				if (!res.headersSent) sendResult(res, { status: 500, message: 'File transfer failed.' });
 				console.error(prefix, 'File transfer failed:', downloadErr.message);
